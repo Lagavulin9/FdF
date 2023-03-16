@@ -6,12 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/24 14:43:34 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:02:07 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 16:00:24 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "mlx.h"
-#include "fdf_bonus.h"
+#include "../include/fdf_bonus.h"
 
 void	mlx_render(t_mlx *mlx)
 {

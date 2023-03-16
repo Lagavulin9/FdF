@@ -6,14 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 15:42:40 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:39:38 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 16:00:37 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <unistd.h>
-#include "fdf_bonus.h"
-#include "libft.h"
+#include "../include/fdf_bonus.h"
 
 void	perror_exit(char *msg)
 {

@@ -6,12 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 15:36:12 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:37:55 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 15:56:03 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
-#include "libft.h"
+#include "../include/fdf.h"
 
 int	is_valid_value(char *value)
 {

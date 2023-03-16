@@ -6,14 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 15:14:57 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:31:51 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 16:00:27 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <math.h>
-#include "fdf_bonus.h"
-#include "mlx.h"
+#include "../include/fdf_bonus.h"
 
 void	mlx_exit(t_mlx *mlx)
 {

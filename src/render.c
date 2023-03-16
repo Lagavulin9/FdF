@@ -6,12 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 15:16:52 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:38:09 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 16:14:25 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
-#include "mlx.h"
+#include "../include/fdf.h"
 
 void	ft_mlx_pixel_put(t_mlx *mlx, int x, int y, int color)
 {

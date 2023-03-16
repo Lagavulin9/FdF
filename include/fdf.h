@@ -1,17 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fdf_bonus.h                                        :+:      :+:    :+:   */
+/*   fdf.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/24 15:53:06 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:02:45 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 15:56:55 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FDF_BONUS_H
-# define FDF_BONUS_H
+#ifndef FDF_H
+# define FDF_H
+
+# include <fcntl.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <math.h>
+# include <stdio.h>
+# include "../lib/get_next_line/get_next_line.h"
+# include "../lib/libft/libft.h"
+# include "../lib/minilibx_opengl/mlx.h"
 
 # define W_SIZE 1280
 # define H_SIZE 960

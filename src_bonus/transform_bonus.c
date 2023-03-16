@@ -6,12 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 15:18:09 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 19:13:06 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 16:00:33 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <math.h>
-#include "fdf_bonus.h"
+#include "../include/fdf_bonus.h"
 
 void	roll(t_point *point, double theta)
 {

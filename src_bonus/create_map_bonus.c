@@ -6,16 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 15:41:14 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:38:51 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 16:00:17 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <fcntl.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include "fdf_bonus.h"
-#include "libft.h"
-#include "get_next_line.h"
+#include "../include/fdf_bonus.h"
 
 int	get_color(char *rgb)
 {

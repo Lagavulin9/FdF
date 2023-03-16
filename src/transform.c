@@ -6,12 +6,11 @@
 /*   By: jinholee <jinholee@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 15:18:09 by jinholee          #+#    #+#             */
-/*   Updated: 2022/10/27 18:51:32 by jinholee         ###   ########.fr       */
+/*   Updated: 2023/03/16 15:57:17 by jinholee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <math.h>
-#include "fdf.h"
+#include "../include/fdf.h"
 
 void	roll(t_point *point, double theta)
 {
@@ -61,7 +60,7 @@ void	isometric_transform(t_point *point)
 	int	dy;
 
 	dx = 2 * (point->x - point->y);
-	dy = point->x + point->y - point->z;
+	dy = point->x + point->y;
 	point->x = dx;
 	point->y = dy;
 }
@@ -73,10 +72,10 @@ t_point	calc_position(t_point *p, t_info *info)
 	position.x = (float)p->x * info->x_scale * info->scale;
 	position.y = (float)p->y * info->y_scale * info->scale;
 	position.z = (float)p->z * info->z_scale * info->scale;
+	isometric_transform(&position);
 	roll(&position, info->x_angle);
 	pitch(&position, info->y_angle);
 	yaw(&position, info->z_angle);
-	isometric_transform(&position);
 	position.x += info->x_offset;
 	position.y += info->y_offset;
 	position.color = p->color;
